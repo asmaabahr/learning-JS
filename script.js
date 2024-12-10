@@ -147,3 +147,68 @@ console.log(typeof(t));//number
 
 console.log(typeof(NaN));//NUMBER
 
+
+
+//conditional statments (if condition, switch case)
+//-->execute programming statment depends on condition
+
+var usAge = window.prompt("Enter your age");
+
+if(usAge > 16) // implict conversion
+{
+    console.log("welcom you can register");
+}else{
+    console.log("sorry! you can't register")
+}
+
+var x = 10;
+var y = "10";
+
+if(x == y) // comparison with out type
+{
+    console.log("welcom you can register");
+}else{
+    console.log("sorry! you can't register")
+}
+
+//x = y => assignment operator
+//x == y => comparison operator (compare value with out data type)
+//x === y => comparison operator (compare value & data type)
+
+
+if(undefined == null) 
+{
+    console.log("Equal");//equal cause thier value all null but datatype different
+}else{
+    console.log("Not Equal");
+}
+
+console.log(typeof(undefined)); //undefined
+console.log(typeof(null));//object
+
+
+if(NaN == NaN) //in type->number
+{
+    console.log("Equal");
+}else{
+    console.log("Not Equal");//not equal  Number("asmaa")!=Number("ahmed")
+}
+
+
+//nested if
+
+var role = "admin";
+
+if(role == "admin")
+{
+    console.log("you can edit,add,delete")
+}
+else if(role =="editor")
+{
+    console.log("you can edit")
+}else{
+    console.log("you can't access")
+}
+
+//ternary operator
+10>5?console.log("10"):console.log("5");
