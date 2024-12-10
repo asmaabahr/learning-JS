@@ -73,3 +73,27 @@ console.log(typeof(lis));//object
 
 var obj = {usname: "asmaa", age: 34};
 console.log(typeof(obj));//object
+
+
+
+//concatination operator => "+" (between strings||one string and other data types)
+
+var y = "asmaa"+"bahr";
+console.log(y);
+
+var z = "5"+5;
+console.log(z)//55 string
+
+var a = 5+5+5+"5";
+console.log(a)//155 string
+
+var b = "5"+5+5+5;
+console.log(b)//5555 string
+
+
+//implicit conversion
+//any math operator unless (+) if they applied on string(number) it will convert it into number then operate function of operator
+
+var c = "5"*"5";
+console.log(c);//25 number
+
