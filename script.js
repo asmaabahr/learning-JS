@@ -64,3 +64,12 @@ console.log(typeof(isAdmin));
 
 var productPrice;
 console.log(typeof(productPrice));//undefind
+
+var x = null;
+console.log(typeof(x));//object
+
+var lis = [1,2,56,3];
+console.log(typeof(lis));//object
+
+var obj = {usname: "asmaa", age: 34};
+console.log(typeof(obj));//object
